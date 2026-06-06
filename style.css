@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff7f8;
+    color: #333;
+}
+
+header {
+    background-color: #f7c8d0;
+    color: #333;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav {
+    background-color: #cdeee6;
+    text-align: center;
+    padding: 14px;
+}
+
+nav a {
+    color: #333;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d77a95;
+}
+
+main {
+    display: flex;
+    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+
+section {
+    width: 70%;
+    padding-right: 25px;
+}
+
+section h2 {
+    color: #d77a95;
+    font-size: 30px;
+}
+
+section p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+section img {
+    width: 280px;
+    border-radius: 15px;
+    border: 3px solid #d9f2d9;
+    margin-top: 15px;
+}
+
+aside {
+    width: 30%;
+    background-color: #d9f2d9;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+aside h3 {
+    color: #5f8f7b;
+}
+
+footer {
+    background-color: #bcdff1;
+    color: #333;
+    text-align: center;
+    padding: 18px;
+    margin-top: 20px;
+}
+
+form input,
+form textarea {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #f7c8d0;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+form textarea {
+    height: 120px;
+}
+
+button {
+    background-color: #f7c8d0;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #bcdff1;
+}
+.offer-img {
+    width: 100%;
+    border-radius: 12px;
+    margin: 10px 0;
+}
+nav a.active {
+    color: #d77a95;
+    text-decoration: underline;
+}
+section img {
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.products {
+    display: flex;
+    gap: 20px;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    width: 150px;
+    border-radius: 10px;
+    gap: 30px;
+}
+.price {
+    font-weight: bold;
+    color: #d77a95;
+    margin-top: 5px;
+}
